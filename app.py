@@ -165,4 +165,5 @@ elif menu=="Leaderboard":
 
         df=pd.DataFrame(st.session_state.leaderboard)
 
+
         st.table(df)
